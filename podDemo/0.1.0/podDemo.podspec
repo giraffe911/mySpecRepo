@@ -38,7 +38,7 @@ test cocoapods description for the abc formal version;
   #   'podDemo' => ['podDemo/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.private_header_files = 'podDemo/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'JSONModel'
   #s.dependency 'AFNetworking', '~> 2.3'
